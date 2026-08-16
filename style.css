@@ -1,0 +1,1135 @@
+/* ==========================================
+   ChenBridge Global Website
+   Main Stylesheet - Clean Version
+   ========================================== */
+
+
+/* ==========================================
+   Reset & Base
+   ========================================== */
+
+
+* {
+
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+body {
+
+    color:#374151;
+
+    line-height:1.7;
+
+    background:#F8F6F1;
+
+    top:0 !important;
+
+}
+
+
+html {
+
+    scroll-behavior:smooth;
+
+}
+
+
+.container {
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+
+section[id] {
+
+    scroll-margin-top:90px;
+
+}
+
+
+
+/* ==========================================
+   Header
+   ========================================== */
+
+
+header {
+
+    padding:10px 0;
+
+    border-bottom:1px solid rgba(229,231,235,0.6);
+
+    background:rgba(255,255,255,0.85);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+}
+
+
+
+.nav {
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+.brand {
+
+    margin-right:auto;
+
+}
+
+
+
+.logo-img {
+
+    height:55px;
+
+    width:auto;
+
+}
+
+
+
+nav {
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+nav a {
+
+    margin-left:18px;
+
+    text-decoration:none;
+
+    color:#374151;
+
+    font-weight:600;
+
+    font-size:15px;
+
+}
+
+
+
+nav a:hover {
+
+    color:#0F3D2E;
+
+}
+
+
+
+
+
+/* ==========================================
+   Hero Section
+   ========================================== */
+
+
+.hero {
+
+    background:#F8F6F1;
+
+    padding:90px 0 70px;
+
+}
+
+
+
+.hero-grid {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:start;
+
+}
+
+
+
+.hero-grid > div:first-child {
+
+    transform:translateY(-40px);
+
+}
+
+
+
+h1 {
+
+    font-size:42px;
+
+    line-height:1.2;
+
+    color:#0F3D2E;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.hero p {
+
+    font-size:17px;
+
+    line-height:1.6;
+
+    color:#4b5563;
+
+    margin:12px 0;
+
+}
+
+
+
+.hero-image {
+
+    width:100%;
+
+    max-width:500px;
+
+    border-radius:12px;
+
+    display:block;
+
+    margin:auto;
+
+}
+
+
+
+
+
+/* ==========================================
+   Buttons
+   ========================================== */
+
+
+.btn {
+
+    background:#F28C28;
+
+    color:white;
+
+    padding:15px 35px;
+
+    text-decoration:none;
+
+    border-radius:5px;
+
+    font-weight:bold;
+
+    display:inline-block;
+
+    margin-top:20px;
+
+}
+
+
+
+.btn:hover {
+
+    background:#D96F16;
+
+}
+
+
+
+
+
+/* ==========================================
+   Sections
+   ========================================== */
+
+
+section {
+
+    padding:60px 0;
+
+}
+
+
+
+section h2 {
+
+    font-size:36px;
+
+    color:#0F3D2E;
+
+    margin-bottom:35px;
+
+    text-align:center;
+
+}
+
+
+
+.text {
+
+    font-size:16px;
+
+    max-width:900px;
+
+    margin:0 auto 35px;
+
+    color:#4b5563;
+
+    text-align:center;
+
+    line-height:1.8;
+
+}
+/* ==========================================
+   Cards
+   ========================================== */
+
+
+.cards {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.three-col {
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+
+
+.card {
+
+    border:1px solid #e5e7eb;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    background:white;
+
+}
+
+
+
+.card h3 {
+
+    color:#0F3D2E;
+
+    margin-bottom:15px;
+
+    font-size:20px;
+
+}
+
+
+
+.card p {
+
+    color:#4b5563;
+
+}
+
+
+
+.card:hover {
+
+    transform:translateY(-5px);
+
+    transition:0.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+
+
+.card a {
+
+    color:#0F3D2E;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+
+.card a:hover {
+
+    color:#F28C28;
+
+}
+
+
+
+
+
+/* ==========================================
+   Dark Section
+   ========================================== */
+
+
+.dark {
+
+    background:#0F3D2E;
+
+    color:white;
+
+}
+
+
+
+.dark h2,
+
+.dark h3 {
+
+    color:white;
+
+}
+
+
+
+.dark-card {
+
+    border-color:#315747;
+
+    background:transparent;
+
+    text-align:center;
+
+}
+
+
+
+.dark-card p {
+
+    color:#e5e7eb;
+
+}
+
+
+
+
+
+/* ==========================================
+   Tags
+   ========================================== */
+
+
+.tags {
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+
+
+.tags span {
+
+    background:white;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    color:#0F3D2E;
+
+    font-weight:600;
+
+    border:1px solid #e5e7eb;
+
+}
+
+
+
+
+
+/* ==========================================
+   Contact
+   ========================================== */
+
+
+.contact {
+
+    background:white;
+
+    text-align:center;
+
+}
+
+
+
+.contact h2,
+
+.contact p {
+
+    text-align:center;
+
+}
+
+
+
+.contact a {
+
+    display:inline-block;
+
+    font-size:26px;
+
+    color:#F28C28;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+.contact a:hover {
+
+    color:#D96F16;
+
+}
+
+
+
+
+
+/* ==========================================
+   Footer
+   ========================================== */
+
+
+footer {
+
+    background:#1f2937;
+
+    color:#d1d5db;
+
+    padding:30px;
+
+    text-align:center;
+
+    font-size:14px;
+
+}
+
+
+
+.footer-content {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+
+
+/* ==========================================
+   Social Icons
+   ========================================== */
+
+
+.social-icons {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+
+
+.social-icons img {
+
+    width:24px;
+
+    height:24px;
+
+}
+
+
+
+
+
+/* ==========================================
+   Google Translate
+   ========================================== */
+
+
+.goog-te-banner-frame,
+
+.goog-te-banner-frame.skiptranslate {
+
+    display:none !important;
+
+    visibility:hidden !important;
+
+}
+
+
+
+.skiptranslate iframe {
+
+    display:none !important;
+
+}
+
+
+
+#google_translate_element {
+
+    position:fixed;
+
+    left:-9999px;
+
+    top:-9999px;
+
+}
+
+
+
+
+
+/* ==========================================
+   Language Switcher
+   ========================================== */
+
+
+.language-switcher {
+
+    position:relative;
+
+    margin-left:35px;
+
+}
+
+
+
+#language-button {
+
+    background:transparent;
+
+    border:none;
+
+    font-size:14px;
+
+    cursor:pointer;
+
+    color:#374151;
+
+    font-weight:600;
+
+}
+
+
+
+.language-menu {
+
+    display:none;
+
+    position:absolute;
+
+    top:35px;
+
+    right:0;
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:8px;
+
+    padding:10px;
+
+    min-width:160px;
+
+}
+
+
+
+.language-menu a {
+
+    display:block;
+
+    padding:8px 12px;
+
+    text-decoration:none;
+
+    color:#374151;
+
+}
+
+
+
+.language-menu a:hover {
+
+    background:#f3f4f6;
+
+}
+
+
+
+.language-switcher:hover .language-menu {
+
+    display:block;
+
+}
+/* ==========================================
+   Packaging Capability Showcase
+   ========================================== */
+
+
+.capability-showcase {
+
+    background:#F8F6F1;
+
+}
+
+
+
+.showcase-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.showcase-card {
+
+    overflow:hidden;
+
+    border-radius:12px;
+
+}
+
+
+
+.image-slider {
+
+    position:relative;
+
+    width:100%;
+
+    height:280px;
+
+    overflow:hidden;
+
+    border-radius:12px;
+
+    background:white;
+
+}
+
+
+
+.image-slider img {
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:0.5s;
+
+}
+
+
+
+.image-slider:hover img {
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+/* Overlay */
+
+
+.overlay {
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    padding:12px 15px;
+
+    background:rgba(0,0,0,0.45);
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.overlay h3 {
+
+    margin:0;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+
+
+.overlay span {
+
+    display:block;
+
+    margin-top:3px;
+
+    font-size:13px;
+
+    color:#f3f4f6;
+
+}
+
+
+
+
+
+/* ==========================================
+   About Page Compatibility
+   ========================================== */
+
+
+.leadership-grid {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+
+
+.leadership-image {
+
+    width:100%;
+
+    max-width:400px;
+
+    border-radius:12px;
+
+}
+
+
+
+
+
+/* ==========================================
+   Mobile Responsive
+   ========================================== */
+
+
+@media(max-width:900px){
+
+
+header {
+
+    padding:12px 0;
+
+}
+
+
+
+.logo-img {
+
+    height:50px;
+
+}
+
+
+
+.nav {
+
+    align-items:center;
+
+}
+
+
+
+nav {
+
+    display:none;
+
+}
+
+
+
+.language-switcher {
+
+    margin-left:auto;
+
+}
+
+
+
+#language-button {
+
+    font-size:14px;
+
+}
+
+
+
+
+
+.hero {
+
+    padding:40px 0;
+
+}
+
+
+
+.hero-grid {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.hero-grid > div:first-child {
+
+    transform:none;
+
+}
+
+
+
+.hero h1 {
+
+    font-size:34px;
+
+    line-height:1.15;
+
+}
+
+
+
+.hero p {
+
+    font-size:16px;
+
+    line-height:1.6;
+
+}
+
+
+
+.hero-image {
+
+    margin-top:25px;
+
+}
+
+
+
+
+
+h1 {
+
+    font-size:38px;
+
+}
+
+
+
+h2 {
+
+    font-size:30px;
+
+    line-height:1.25;
+
+}
+
+
+
+
+
+.cards,
+
+.three-col,
+
+.showcase-grid {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+
+
+.card {
+
+    padding:22px;
+
+}
+
+
+
+.card h3 {
+
+    font-size:20px;
+
+    line-height:1.3;
+
+}
+
+
+
+.card p {
+
+    font-size:16px;
+
+    line-height:1.6;
+
+}
+
+
+
+
+
+section > .container > p {
+
+    text-align:center;
+
+}
+
+
+
+
+
+.dark h2 {
+
+    font-size:30px;
+
+}
+
+
+
+
+
+.image-slider {
+
+    height:220px;
+
+}
+
+
+
+
+
+.contact h2 {
+
+    font-size:30px;
+
+    line-height:1.25;
+
+}
+
+
+
+.contact .text {
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    padding:0 10px;
+
+}
+
+
+
+.contact a {
+
+    font-size:22px;
+
+}
+
+
+
+}

@@ -1,7 +1,6 @@
 /* ==========================================
    ChenBridge Home Page Styles
 ========================================== */
-
 /* ==========================================
    HERO SECTION
 ========================================== */
@@ -21,12 +20,11 @@
 
     display:flex;
 
-    align-items:stretch;
+    align-items:center;
 
     overflow:hidden;
 
 }
-
 
 
 
@@ -44,17 +42,15 @@
 
 
 
-
 .home-hero .container {
 
     width:100%;
 
-    max-width:none;
+    max-width:1200px;
 
-    padding:0;
+    margin:auto;
 
 }
-
 
 
 
@@ -63,21 +59,15 @@
 
     position:relative;
 
-    width:80%;
+    width:65%;
 
-    max-width:950px;
-
-    min-height:650px;
+    max-width:850px;
 
     background:rgba(0,0,0,0.55);
 
-    padding:80px 70px;
+    padding:55px 60px;
 
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
+    margin-top:-50px;
 
     color:white;
 
@@ -89,7 +79,7 @@
 
 .home-hero-content > * {
 
-    max-width:850px;
+    max-width:760px;
 
 }
 
@@ -107,7 +97,7 @@
 
     font-weight:600;
 
-    margin-bottom:20px;
+    margin-bottom:18px;
 
     color:white;
 
@@ -119,13 +109,13 @@
 
 .home-hero-content h1 {
 
-    font-size:48px;
+    font-size:46px;
 
     line-height:1.2;
 
-    margin-bottom:25px;
+    margin-bottom:22px;
 
-    max-width:750px;
+    max-width:720px;
 
     color:white;
 
@@ -137,15 +127,15 @@
 
 .home-hero-content p {
 
-    font-size:19px;
+    font-size:18px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    max-width:800px;
+    max-width:720px;
 
     color:white;
 
-    margin-bottom:30px;
+    margin-bottom:28px;
 
 }
 
@@ -157,11 +147,14 @@
 
     width:auto;
 
+    display:inline-block;
+
     align-self:flex-start;
 
     padding:14px 32px;
 
 }
+
 /* ==========================================
    HERO SLIDER
 ========================================== */

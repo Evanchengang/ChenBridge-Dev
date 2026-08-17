@@ -1,1451 +1,315 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* ==========================================
+   ChenBridge Home Page Styles
+========================================== */
 
 
-<title>
-ChenBridge | China Supply Chain & Manufacturing Partner for Global Companies
-</title>
+/* ==========================================
+   HERO SECTION
+========================================== */
 
 
-<meta name="description" content="ChenBridge helps global companies source, manage, and control China supply chains through supplier development, procurement management, manufacturing coordination, quality assurance, and logistics support.">
+.home-hero {
 
+    position:relative;
 
-<meta name="keywords" content="China sourcing partner, China manufacturing partner, China supply chain management, supplier management China, OEM manufacturing China, industrial packaging China">
+    min-height:650px;
 
+    background-image:url("../images/hero/about-hero.jpg");
 
-<meta name="author" content="ChenBridge Global Advisory">
+    background-size:cover;
 
+    background-position:center;
 
-<link rel="canonical" href="https://chenbridge.com/">
+    display:flex;
 
+    align-items:center;
 
-<link rel="stylesheet" href="style.css">
-
-
-<link rel="icon" type="image/png" href="favicon.png">
-
-
-
-<script type="text/javascript">
-
-function googleTranslateElementInit() {
-
-new google.translate.TranslateElement(
-{
-pageLanguage:'en',
-includedLanguages:'en,zh-CN,ja,ko,de,fr,es'
-},
-'google_translate_element'
-);
+    overflow:hidden;
 
 }
 
-</script>
 
 
+.home-hero-overlay {
 
-<script 
-type="text/javascript" 
-src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-</script>
+    position:absolute;
 
+    inset:0;
 
-
-
-<script type="application/ld+json">
-
-{
- "@context":"https://schema.org",
- "@type":"Organization",
- "name":"ChenBridge Global Advisory",
- "url":"https://chenbridge.com",
- "logo":"https://chenbridge.com/logo.png",
- "description":"China supply chain and manufacturing partner helping global companies manage sourcing, suppliers, and manufacturing operations.",
- "areaServed":"Worldwide"
-}
-
-</script>
-
-
-</head>
-
-
-
-<body>
-
-
-
-
-<!-- ================= HEADER ================= -->
-
-
-<header>
-
-
-<div class="container nav">
-
-
-
-<div class="brand">
-
-
-<a href="index.html">
-
-
-<img 
-src="logo.png" 
-alt="ChenBridge Logo" 
-class="logo-img">
-
-
-</a>
-
-
-</div>
-
-
-
-
-
-<nav>
-
-
-<a href="index.html">
-Home
-</a>
-
-
-
-<a href="industries.html">
-Industries
-</a>
-
-
-
-<a href="index.html#services">
-Services
-</a>
-
-
-
-<a href="index.html#process">
-Process
-</a>
-
-
-
-<a href="index.html#insights">
-Insights
-</a>
-
-
-
-<a href="index.html#contact">
-Contact
-</a>
-
-
-
-</nav>
-
-
-
-
-
-
-<div class="language-switcher">
-
-
-
-<button id="language-button">
-
-🇺🇸 English ▼
-
-</button>
-
-
-
-
-
-<div class="language-menu">
-
-
-
-<a href="#" onclick="changeLanguage('en'); return false;">
-🇺🇸 English
-</a>
-
-
-
-<a href="#" onclick="changeLanguage('zh-CN'); return false;">
-🇨🇳 中文
-</a>
-
-
-
-<a href="#" onclick="changeLanguage('ja'); return false;">
-🇯🇵 日本語
-</a>
-
-
-
-<a href="#" onclick="changeLanguage('ko'); return false;">
-🇰🇷 한국어
-</a>
-
-
-
-<a href="#" onclick="changeLanguage('de'); return false;">
-🇩🇪 Deutsch
-</a>
-
-
-
-<a href="#" onclick="changeLanguage('fr'); return false;">
-🇫🇷 Français
-</a>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-<div id="google_translate_element"></div>
-
-
-
-</div>
-
-
-</header>
-
-
-
-
-
-
-
-<!-- ================= HERO ================= -->
-
-
-<section class="home-hero">
-
-
-<div class="container">
-
-
-<div class="hero-content">
-
-
-
-<span class="hero-label">
-
-CHINA OPERATIONS & SUPPLY CHAIN SUPPORT
-
-</span>
-
-
-
-<h1>
-
-Your Trusted Partner for China Sourcing, Manufacturing & Local Execution
-
-</h1>
-
-
-
-<p>
-
-ChenBridge helps global companies access China's manufacturing capabilities through supplier development, sourcing management, production coordination, and reliable local support.
-
-</p>
-
-
-
-
-<div class="hero-buttons">
-
-
-
-<a href="industries.html" class="btn secondary-btn">
-
-Explore Industries
-
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= INDUSTRIES ================= -->
-
-
-<section id="industries">
-
-
-<div class="container">
-
-
-<h2>
-
-Industries We Support
-
-</h2>
-
-
-
-<p class="text">
-
-ChenBridge helps global companies execute China sourcing and manufacturing — without building a local team.
-
-</p>
-
-
-
-
-<div class="cards four-col">
-
-
-
-<div class="card industry-card reveal">
-
-
-<h3>
-
-Industrial Manufacturing
-
-</h3>
-
-
-<p>
-
-Complex components, industrial equipment, and engineered products. We help companies identify capable suppliers, coordinate manufacturing, and keep projects moving.
-
-</p>
-
-
-<span>
-
-Supplier Access | Manufacturing Coordination
-
-</span>
-
-
-<a href="industrial.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-<div class="card industry-card reveal">
-
-
-<h3>
-
-Technology Infrastructure
-
-</h3>
-
-
-<p>
-
-Electronics, data center equipment, and high-value products. We support supplier communication, technical coordination, and local execution.
-
-</p>
-
-
-<span>
-
-Technical Communication | Local Execution
-
-</span>
-
-
-<a href="technology.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-<div class="card industry-card reveal">
-
-
-<h3>
-
-Technology Infrastructure
-
-</h3>
-
-
-<p>
-
-Electronics, data center equipment, and high-value products. We support supplier communication, technical coordination, and local execution.
-
-</p>
-
-
-<span>
-
-Technical Communication | Local Execution
-
-</span>
-
-
-<a href="technology.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="card industry-card reveal">
-
-
-<h3>
-
-Defense & Specialized Logistics
-
-</h3>
-
-
-<p>
-
-Protective packaging and specialized logistics solutions. We coordinate qualified suppliers and support complex delivery requirements.
-
-</p>
-
-
-<span>
-
-Qualified Suppliers | Logistics Support
-
-</span>
-
-
-<a href="defense.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="card industry-card reveal">
-
-
-<h3>
-
-Consumer Products
-
-</h3>
-
-
-<p>
-
-OEM manufacturing and private label development. From supplier selection to production follow-up, we support brands on the ground in China.
-
-</p>
-
-
-<span>
-
-OEM Development | Production Follow-up
-
-</span>
-
-
-<a href="consumer.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= SERVICES ================= -->
-
-
-<section id="services" class="dark">
-
-
-<div class="container">
-
-
-<h2>
-
-How We Support Clients
-
-</h2>
-
-
-<p class="text">
-
-From supplier discovery to production execution, ChenBridge provides practical China-based support throughout the sourcing and manufacturing process.
-
-</p>
-
-
-
-
-
-<div class="cards three-col">
-
-
-
-
-
-<div class="card dark-card">
-
-
-<h3>
-
-Supplier Development
-
-</h3>
-
-
-<p>
-
-Identify, evaluate, and develop reliable manufacturing partners in China.
-
-</p>
-
-
-<a href="supplier-development.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card dark-card">
-
-
-<h3>
-
-Procurement Management
-
-</h3>
-
-
-<p>
-
-Manage RFQ, supplier communication, quotation evaluation, and purchasing execution.
-
-</p>
-
-
-<a href="procurement-management.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card dark-card">
-
-
-<h3>
-
-Manufacturing Coordination
-
-</h3>
-
-
-<p>
-
-Monitor production progress and coordinate execution between customers and suppliers.
-
-</p>
-
-
-<a href="manufacturing-coordination.html">
-
-Learn More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-
-<!-- ================= PROCESS ================= -->
-
-
-<section id="process">
-
-
-<div class="container">
-
-
-<h2>
-
-Our Process
-
-</h2>
-
-
-
-<p class="text">
-
-A practical, structured approach designed to reduce sourcing risk and keep China projects moving.
-
-</p>
-
-
-
-
-
-<div class="cards three-col">
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-01 Requirement Analysis
-
-</h3>
-
-
-<p>
-
-Understand customer requirements, product specifications, and project objectives.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-02 Supplier Selection
-
-</h3>
-
-
-<p>
-
-Identify and evaluate suitable manufacturing partners in China.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-03 RFQ & Quotation
-
-</h3>
-
-
-<p>
-
-Analyze supplier quotations and provide transparent cost recommendations.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-04 Manufacturing Coordination
-
-</h3>
-
-
-<p>
-
-Coordinate production progress and communication between customers and suppliers.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-05 Quality Verification
-
-</h3>
-
-
-<p>
-
-Support inspection and quality confirmation before shipment.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-06 Shipment Support
-
-</h3>
-
-
-<p>
-
-Coordinate export preparation and delivery execution.
-
-</p>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- ================= WHY CHOOSE CHENBRIDGE ================= -->
-
-
-<section id="about">
-
-
-<div class="container">
-
-
-<h2>
-
-Why Companies Choose ChenBridge
-
-</h2>
-
-
-
-<p class="text">
-
-For companies that need China capabilities without the cost and complexity of building their own local operation.
-
-</p>
-
-
-
-
-
-<div class="cards three-col">
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-Your China Representative Without a China Office
-
-</h3>
-
-
-<p>
-
-Access China's manufacturing capabilities without the cost and complexity of establishing your own local operation.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-Access to Qualified Manufacturing Partners
-
-</h3>
-
-
-<p>
-
-Connect with suitable manufacturing partners through local experience and supplier networks in China.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-Local Execution Without Fixed China Operation Costs
-
-</h3>
-
-
-<p>
-
-ChenBridge provides China-based support for supplier communication, production coordination, quality follow-up, and shipment execution without the long-term investment required to build and manage a local team.
-
-</p>
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-<!-- =========================
-     Insights
-========================= -->
-
-
-<section id="insights">
-
-
-<div class="container">
-
-
-<h2>
-
-Insights
-
-</h2>
-
-
-
-<p class="text">
-
-Practical knowledge and perspectives on China sourcing, manufacturing, and supply chain management.
-
-</p>
-
-
-
-
-<div class="cards three-col">
-
-
-
-<div class="card">
-
-
-<h3>
-
-China Manufacturing Insights
-
-</h3>
-
-
-<p>
-
-Practical observations on China's manufacturing environment, supplier development, and production management.
-
-</p>
-
-
-<a href="#">
-
-Read More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-Supply Chain Perspectives
-
-</h3>
-
-
-<p>
-
-Insights into sourcing strategies, supplier relationships, and building reliable international supply chains.
-
-</p>
-
-
-<a href="#">
-
-Read More →
-
-</a>
-
-
-</div>
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-
-China Operations Guide
-
-</h3>
-
-
-<p>
-
-Practical guidance for companies looking to establish and manage manufacturing activities in China.
-
-</p>
-
-
-<a href="#">
-
-Read More →
-
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- =========================
-     Contact
-========================= -->
-
-
-<section id="contact" class="contact">
-
-
-<div class="container">
-
-
-<h2>
-
-Discuss Your China Supply Chain Requirements
-
-</h2>
-
-
-
-
-<p class="text">
-
-Whether you need supplier sourcing, manufacturing support, or China supply chain coordination, ChenBridge helps you build reliable operations with local execution support.
-
-</p>
-
-
-
-<p>
-
-Contact us:
-
-</p>
-
-
-
-
-<a href="mailto:contact@chenbridge.com">
-
-contact@chenbridge.com
-
-</a>
-
-
-
-
-
-<div class="social-icons">
-
-
-<img 
-src="linkedin.png" 
-alt="ChenBridge LinkedIn"
-loading="lazy">
-
-
-<img 
-src="youtube.png" 
-alt="ChenBridge YouTube"
-loading="lazy">
-
-
-<img 
-src="whatsapp.png" 
-alt="ChenBridge WhatsApp"
-loading="lazy">
-
-
-<img 
-src="line.png" 
-alt="ChenBridge LINE"
-loading="lazy">
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<!-- =========================
-     Footer
-========================= -->
-
-
-<footer>
-
-
-<div class="footer-container">
-
-
-<div class="footer-grid">
-
-
-
-<div class="footer-left">
-
-
-
-<div class="footer-column">
-
-
-<h4>
-
-Industries
-
-</h4>
-
-
-<a href="industrial.html">
-
-Industrial Manufacturing
-
-</a>
-
-
-<a href="technology.html">
-
-Technology Infrastructure
-
-</a>
-
-
-<a href="defense.html">
-
-Defense & Specialized Logistics
-
-</a>
-
-
-<a href="consumer.html">
-
-Consumer Products
-
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<div class="footer-column">
-
-
-<h4>
-
-Services
-
-</h4>
-
-
-<a href="supplier-development.html">
-
-Supplier Development
-
-</a>
-
-
-<a href="procurement-management.html">
-
-Procurement Management
-
-</a>
-
-
-<a href="manufacturing-coordination.html">
-
-Manufacturing Coordination
-
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-<div class="footer-brand">
-
-
-<h3>
-
-ChenBridge Global Advisory
-
-</h3>
-
-
-
-<p>
-
-China Operations & Supply Chain Support Partner helping global companies source, develop suppliers, and execute manufacturing projects in China.
-
-</p>
-
-
-
-
-
-<div class="social-links">
-
-
-<a href="#">
-
-<img src="linkedin.png" alt="LinkedIn">
-
-</a>
-
-
-
-<a href="#">
-
-<img src="whatsapp.png" alt="WhatsApp">
-
-</a>
-
-
-
-<a href="#">
-
-<img src="youtube.png" alt="YouTube">
-
-</a>
-
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-<div class="footer-bottom">
-
-
-<p>
-
-© 2026 ChenBridge Global Advisory. All rights reserved.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-</footer>
-
-
-
-
-
-
-
-<!-- =========================
- Google Translate
-========================= -->
-
-
-<script>
-
-
-function changeLanguage(lang){
-
-
-var checkExist = setInterval(function(){
-
-
-var select = document.querySelector(".goog-te-combo");
-
-
-
-if(select){
-
-
-clearInterval(checkExist);
-
-
-select.value = lang;
-
-
-select.dispatchEvent(
-
-new Event("change", {
-
-bubbles:true
-
-})
-
-);
-
+    background:rgba(0,0,0,0.45);
 
 }
 
 
-},500);
+
+
+.hero-content {
+
+    position:relative;
+
+    max-width:760px;
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(8px);
+
+    padding:45px;
+
+    border-radius:10px;
+
+    color:white;
+
+}
+
+
+
+
+.hero-label {
+
+    display:inline-block;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+    color:#F28C28;
+
+}
+
+
+
+
+.hero-content h1 {
+
+    font-size:48px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+    color:white;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    color:#f3f4f6;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* ==========================================
+   HERO SLIDER
+========================================== */
+
+
+.hero-slide {
+
+    display:none;
+
+}
+
+
+
+.hero-slide.active {
+
+    display:block;
+
+    animation:heroFade 1s ease;
+
+}
+
+
+
+@keyframes heroFade {
+
+
+from {
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+
+to {
+
+opacity:1;
+
+transform:translateY(0);
+
+}
 
 
 }
 
 
 
-</script>
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+
+.hero-buttons {
+
+    margin-top:25px;
+
+}
 
 
 
-</body>
+.btn {
+
+    display:inline-block;
+
+    padding:14px 32px;
+
+    background:#F28C28;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    border-radius:4px;
+
+    transition:0.3s ease;
+
+}
 
 
-</html>
+
+.btn:hover {
+
+    opacity:0.85;
+
+}
+
+
+
+
+
+/* ==========================================
+   SECTION COMMON
+========================================== */
+
+
+.section-intro {
+
+    max-width:800px;
+
+    margin:20px auto 45px;
+
+    text-align:center;
+
+    line-height:1.8;
+
+    color:#6b7280;
+
+}
+
+
+
+/* ==========================================
+   INDUSTRIES
+========================================== */
+
+
+.industry-card span {
+
+    display:block;
+
+    margin:15px 0;
+
+    font-size:14px;
+
+    color:#6b7280;
+
+}
+
+
+
+
+/* ==========================================
+   CONTACT
+========================================== */
+
+
+.contact-email {
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    color:#F28C28;
+
+    text-decoration:none;
+
+}
+
+
+
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+
+@media(max-width:768px){
+
+
+.home-hero {
+
+    min-height:600px;
+
+}
+
+
+
+.hero-content {
+
+
+    padding:30px;
+
+    margin:20px;
+
+}
+
+
+
+.hero-content h1 {
+
+    font-size:34px;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:16px;
+
+}
+
+
+
+}

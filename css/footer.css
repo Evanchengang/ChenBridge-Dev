@@ -1,266 +1,166 @@
-/* ==========================================
-   ChenBridge Footer Styles
-   ========================================== */
+<footer>
 
 
-/* ==========================================
-   Footer Base
-========================================== */
+<div class="footer-container">
 
 
-footer {
+<div class="footer-grid">
 
-    background:#1F2937;
 
-    color:#D1D5DB;
 
-    padding:50px 0 30px;
+<!-- Industries -->
 
-    font-size:14px;
+<div class="footer-column">
 
-}
 
+<h4>
+Industries
+</h4>
 
 
-.footer-container {
+<a href="industrial.html">
+Industrial Manufacturing
+</a>
 
-    width:90%;
 
-    max-width:1200px;
+<a href="technology.html">
+Technology Infrastructure
+</a>
 
-    margin:auto;
 
-}
+<a href="defense.html">
+Defense & Specialized Logistics
+</a>
 
 
+<a href="consumer.html">
+Consumer Products
+</a>
 
 
+</div>
 
-/* ==========================================
-   Footer Grid
-========================================== */
 
 
-.footer-grid {
 
-    display:grid;
 
-    grid-template-columns:1fr 1fr 2fr;
 
-    gap:50px;
+<!-- Services -->
 
-    text-align:left;
+<div class="footer-column">
 
-    margin-bottom:35px;
 
-}
+<h4>
+Services
+</h4>
 
 
+<a href="supplier-development.html">
+Supplier Development
+</a>
 
 
+<a href="procurement-management.html">
+Procurement Management
+</a>
 
-/* ==========================================
-   Brand Area
-========================================== */
 
+<a href="manufacturing-coordination.html">
+Manufacturing Coordination
+</a>
 
-.footer-brand h3 {
 
-    color:#ffffff;
+</div>
 
-    font-size:24px;
 
-    font-weight:600;
 
-    margin-bottom:15px;
 
-}
 
 
+<!-- Company + Social -->
 
-.footer-brand p {
+<div class="footer-brand">
 
-    color:#D1D5DB;
 
-    line-height:1.8;
+<h3>
+ChenBridge Global Advisory
+</h3>
 
-    max-width:420px;
 
-    margin:0;
+<p>
 
-}
+China Operations & Supply Chain Support Partner helping global companies source, develop suppliers, and execute manufacturing projects in China.
 
+</p>
 
 
 
 
-/* ==========================================
-   Footer Columns
-========================================== */
 
+<div class="social-links">
 
-.footer-column h4 {
 
-    color:#ffffff;
+<a href="#" target="_blank">
 
-    margin-bottom:18px;
+<img src="linkedin.png"
+alt="LinkedIn">
 
-    font-size:16px;
+</a>
 
-    font-weight:600;
 
-}
 
+<a href="#" target="_blank">
 
+<img src="whatsapp.png"
+alt="WhatsApp">
 
-.footer-column a {
+</a>
 
-    display:block;
 
-    color:#D1D5DB;
 
-    margin-bottom:12px;
+<a href="#" target="_blank">
 
-    text-decoration:none;
+<img src="youtube.png"
+alt="YouTube">
 
-    transition:0.3s ease;
+</a>
 
-}
 
 
+</div>
 
-.footer-column a:hover {
 
-    color:#F28C28;
 
-}
+</div>
 
 
 
+</div>
 
 
 
-/* ==========================================
-   Social Icons
-========================================== */
 
 
-.social-links {
 
-    display:flex;
 
-    justify-content:center;
+<!-- Copyright -->
 
-    align-items:center;
 
-    gap:18px;
+<div class="footer-bottom">
 
-    margin-bottom:20px;
 
-}
+<p>
 
+© 2026 ChenBridge Global Advisory. All rights reserved.
 
+</p>
 
-.social-links img {
 
-    width:32px;
+</div>
 
-    height:32px;
 
-    object-fit:contain;
 
-    transition:0.3s ease;
+</div>
 
-}
 
-
-
-.social-links a:hover img {
-
-    opacity:0.7;
-
-    transform:translateY(-2px);
-
-}
-
-
-
-
-
-
-/* ==========================================
-   Footer Bottom
-========================================== */
-
-
-.footer-bottom {
-
-    border-top:1px solid rgba(255,255,255,0.15);
-
-    padding-top:25px;
-
-    text-align:center;
-
-    color:#9CA3AF;
-
-}
-
-
-
-.footer-bottom p {
-
-    margin:0;
-
-}
-
-
-
-
-
-
-
-/* ==========================================
-   Mobile Responsive
-========================================== */
-
-
-@media(max-width:900px){
-
-
-.footer-grid {
-
-    grid-template-columns:1fr;
-
-    text-align:center;
-
-    gap:35px;
-
-}
-
-
-
-.footer-brand p {
-
-    margin:auto;
-
-}
-
-
-
-.footer-column a {
-
-    margin-bottom:10px;
-
-}
-
-
-
-.social-links {
-
-    justify-content:center;
-
-}
-
-
-
-}
+</footer>

@@ -38,7 +38,7 @@ footer {
 
 
 /* ==========================================
-   Footer Grid
+   Footer Main Layout
 ========================================== */
 
 
@@ -46,11 +46,11 @@ footer {
 
     display:grid;
 
-    grid-template-columns:1fr 1fr 2fr;
+    grid-template-columns:1fr 1fr;
 
-    gap:50px;
+    gap:80px;
 
-    text-align:left;
+    align-items:start;
 
     margin-bottom:35px;
 
@@ -62,33 +62,17 @@ footer {
 
 
 /* ==========================================
-   Footer Brand
+   Left Area
 ========================================== */
 
 
-.footer-brand h3 {
+.footer-left {
 
-    color:#ffffff;
+    display:flex;
 
-    font-size:24px;
+    gap:70px;
 
-    font-weight:600;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.footer-brand p {
-
-    color:#D1D5DB;
-
-    line-height:1.8;
-
-    max-width:420px;
-
-    margin:0;
+    text-align:left;
 
 }
 
@@ -135,6 +119,52 @@ footer {
 .footer-column a:hover {
 
     color:#F28C28;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Brand Area
+========================================== */
+
+
+.footer-brand {
+
+    justify-self:end;
+
+    max-width:430px;
+
+    text-align:left;
+
+}
+
+
+
+.footer-brand h3 {
+
+    color:#ffffff;
+
+    font-size:24px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.footer-brand p {
+
+    color:#D1D5DB;
+
+    line-height:1.8;
+
+    margin:0;
 
 }
 
@@ -234,9 +264,31 @@ footer {
 
     grid-template-columns:1fr;
 
+    gap:40px;
+
+}
+
+
+
+.footer-left {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
     text-align:center;
 
-    gap:35px;
+}
+
+
+
+.footer-brand {
+
+    justify-self:center;
+
+    text-align:center;
 
 }
 

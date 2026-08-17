@@ -42,7 +42,36 @@ manufacturing insights
 
 
 <link rel="icon" type="image/png" href="favicon.png">
+<!-- Google Translate -->
 
+<script type="text/javascript">
+
+function googleTranslateElementInit(){
+
+new google.translate.TranslateElement(
+
+{
+
+pageLanguage:'en',
+
+includedLanguages:'en,zh-CN,ja,ko,de,fr,es',
+
+autoDisplay:false
+
+},
+
+'google_translate_element'
+
+);
+
+}
+
+</script>
+
+
+<script 
+src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
 
 </head>
 
@@ -104,7 +133,77 @@ Contact
 
 
 </nav>
+<div class="language-switcher">
 
+
+<button id="language-button">
+
+🇺🇸 English ▼
+
+</button>
+
+
+
+
+<div class="language-menu">
+
+
+<a href="#" onclick="changeLanguage('en');return false;">
+
+🇺🇸 English
+
+</a>
+
+
+
+<a href="#" onclick="changeLanguage('zh-CN');return false;">
+
+🇨🇳 中文
+
+</a>
+
+
+
+<a href="#" onclick="changeLanguage('ja');return false;">
+
+🇯🇵 日本語
+
+</a>
+
+
+
+<a href="#" onclick="changeLanguage('ko');return false;">
+
+🇰🇷 한국어
+
+</a>
+
+
+
+<a href="#" onclick="changeLanguage('de');return false;">
+
+🇩🇪 Deutsch
+
+</a>
+
+
+
+<a href="#" onclick="changeLanguage('fr');return false;">
+
+🇫🇷 Français
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="google_translate_element"></div>
 
 </div>
 
@@ -717,7 +816,42 @@ Your China Operations Representative helping global companies connect with suppl
 </footer>
 
 
+<script>
 
+
+function changeLanguage(lang){
+
+
+let select=document.querySelector(".goog-te-combo");
+
+
+
+if(select){
+
+
+select.value=lang;
+
+
+
+select.dispatchEvent(
+
+new Event("change",{
+
+bubbles:true
+
+})
+
+);
+
+
+}
+
+
+}
+
+
+
+</script>
 
 </body>
 

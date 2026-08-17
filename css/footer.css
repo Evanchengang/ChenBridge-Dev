@@ -1,166 +1,268 @@
-<footer>
+/* ==========================================
+   ChenBridge Footer Styles
+   ========================================== */
 
 
-<div class="footer-container">
+/* ==========================================
+   Footer Base
+========================================== */
 
 
-<div class="footer-grid">
+footer {
 
+    background:#1F2937;
 
+    color:#D1D5DB;
 
-<!-- Industries -->
+    padding:50px 0 30px;
 
-<div class="footer-column">
+    font-size:14px;
 
+}
 
-<h4>
-Industries
-</h4>
 
 
-<a href="industrial.html">
-Industrial Manufacturing
-</a>
+.footer-container {
 
+    width:90%;
 
-<a href="technology.html">
-Technology Infrastructure
-</a>
+    max-width:1200px;
 
+    margin:auto;
 
-<a href="defense.html">
-Defense & Specialized Logistics
-</a>
+}
 
 
-<a href="consumer.html">
-Consumer Products
-</a>
 
 
-</div>
 
 
+/* ==========================================
+   Footer Grid
+========================================== */
 
 
+.footer-grid {
 
+    display:grid;
 
-<!-- Services -->
+    grid-template-columns:1fr 1fr 2fr;
 
-<div class="footer-column">
+    gap:50px;
 
+    text-align:left;
 
-<h4>
-Services
-</h4>
+    margin-bottom:35px;
 
+}
 
-<a href="supplier-development.html">
-Supplier Development
-</a>
 
 
-<a href="procurement-management.html">
-Procurement Management
-</a>
 
 
-<a href="manufacturing-coordination.html">
-Manufacturing Coordination
-</a>
 
+/* ==========================================
+   Footer Brand
+========================================== */
 
-</div>
 
+.footer-brand h3 {
 
+    color:#ffffff;
 
+    font-size:24px;
 
+    font-weight:600;
 
+    margin-bottom:15px;
 
-<!-- Company + Social -->
+}
 
-<div class="footer-brand">
 
 
-<h3>
-ChenBridge Global Advisory
-</h3>
+.footer-brand p {
 
+    color:#D1D5DB;
 
-<p>
+    line-height:1.8;
 
-China Operations & Supply Chain Support Partner helping global companies source, develop suppliers, and execute manufacturing projects in China.
+    max-width:420px;
 
-</p>
+    margin:0;
 
+}
 
 
 
 
-<div class="social-links">
 
 
-<a href="#" target="_blank">
+/* ==========================================
+   Footer Columns
+========================================== */
 
-<img src="linkedin.png"
-alt="LinkedIn">
 
-</a>
+.footer-column h4 {
 
+    color:#ffffff;
 
+    margin-bottom:18px;
 
-<a href="#" target="_blank">
+    font-size:16px;
 
-<img src="whatsapp.png"
-alt="WhatsApp">
+    font-weight:600;
 
-</a>
+}
 
 
 
-<a href="#" target="_blank">
+.footer-column a {
 
-<img src="youtube.png"
-alt="YouTube">
+    display:block;
 
-</a>
+    color:#D1D5DB;
 
+    margin-bottom:12px;
 
+    text-decoration:none;
 
-</div>
+    transition:0.3s ease;
 
+}
 
 
-</div>
 
+.footer-column a:hover {
 
+    color:#F28C28;
 
-</div>
+}
 
 
 
 
 
 
+/* ==========================================
+   Social Icons
+========================================== */
 
-<!-- Copyright -->
 
+.social-links {
 
-<div class="footer-bottom">
+    display:flex;
 
+    justify-content:flex-start;
 
-<p>
+    align-items:center;
 
-© 2026 ChenBridge Global Advisory. All rights reserved.
+    gap:18px;
 
-</p>
+    margin-top:25px;
 
+}
 
-</div>
 
 
+.social-links img {
 
-</div>
+    width:32px;
 
+    height:32px;
 
-</footer>
+    object-fit:contain;
+
+    transition:0.3s ease;
+
+}
+
+
+
+.social-links a:hover img {
+
+    opacity:0.7;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Footer Bottom
+========================================== */
+
+
+.footer-bottom {
+
+    border-top:1px solid rgba(255,255,255,0.15);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:#9CA3AF;
+
+}
+
+
+
+.footer-bottom p {
+
+    margin:0;
+
+}
+
+
+
+
+
+
+
+/* ==========================================
+   Mobile Responsive
+========================================== */
+
+
+@media(max-width:900px){
+
+
+.footer-grid {
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+    gap:35px;
+
+}
+
+
+
+.footer-brand p {
+
+    margin:auto;
+
+}
+
+
+
+.footer-column a {
+
+    margin-bottom:10px;
+
+}
+
+
+
+.social-links {
+
+    justify-content:center;
+
+}
+
+
+}

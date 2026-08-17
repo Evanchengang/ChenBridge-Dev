@@ -111,13 +111,15 @@ position:relative;
 
 .home-hero-content h1 {
 
-    font-size:46px;
+    font-size:52px;
 
-    line-height:1.2;
+    line-height:1.15;
 
-    margin-bottom:22px;
+    font-weight:700;
 
-    max-width:720px;
+    letter-spacing:-0.5px;
+
+    margin-bottom:25px;
 
     color:white;
 

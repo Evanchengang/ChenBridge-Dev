@@ -1,0 +1,312 @@
+/* ==========================================
+   ChenBridge Home Page Styles
+========================================== */
+
+
+
+/* ==========================================
+   Hero
+========================================== */
+
+
+.home-hero {
+
+    min-height:650px;
+
+    display:flex;
+
+    align-items:center;
+
+    background:
+    linear-gradient(
+    rgba(15,61,46,0.88),
+    rgba(15,61,46,0.88)
+    ),
+    url("../images/home-hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+
+.home-hero .container {
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+.hero-content {
+
+    max-width:850px;
+
+    color:white;
+
+}
+
+
+
+
+.hero-label {
+
+    display:inline-block;
+
+    font-size:15px;
+
+    letter-spacing:2px;
+
+    font-weight:600;
+
+    color:#F28C28;
+
+    margin-bottom:25px;
+
+    text-transform:uppercase;
+
+}
+
+
+
+.home-hero h1 {
+
+    color:white;
+
+    font-size:52px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.home-hero p {
+
+    color:rgba(255,255,255,0.9);
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    max-width:760px;
+
+}
+
+
+
+
+
+/* ==========================================
+   Hero Buttons
+========================================== */
+
+
+.hero-buttons {
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:35px;
+
+}
+
+
+
+.hero-buttons .btn {
+
+    margin-top:0;
+
+}
+
+
+
+.secondary-btn {
+
+    background:transparent;
+
+    border:1px solid rgba(255,255,255,0.7);
+
+}
+
+
+
+.secondary-btn:hover {
+
+    background:white;
+
+    color:#0F3D2E;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Light Section
+========================================== */
+
+
+.light-section {
+
+    background:#F8F6F1;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Service Dark Cards
+========================================== */
+
+
+.dark-card {
+
+    min-height:260px;
+
+}
+
+
+
+.dark-card a {
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    color:#F28C28;
+
+    font-weight:600;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Industry Cards
+========================================== */
+
+
+.four-col {
+
+    grid-template-columns:repeat(4,1fr);
+
+}
+
+
+
+.four-col .card {
+
+    min-height:280px;
+
+}
+
+
+
+
+
+/* ==========================================
+   Contact Home
+========================================== */
+
+
+.contact {
+
+    background:white;
+
+    text-align:center;
+
+}
+
+
+
+.contact a {
+
+    color:#F28C28;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Responsive
+========================================== */
+
+
+@media(max-width:900px){
+
+
+
+.home-hero {
+
+    min-height:600px;
+
+}
+
+
+
+.home-hero h1 {
+
+    font-size:38px;
+
+}
+
+
+
+.home-hero p {
+
+    font-size:17px;
+
+}
+
+
+
+.hero-buttons {
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+
+
+.hero-buttons .btn {
+
+    width:auto;
+
+}
+
+
+
+.four-col {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+}

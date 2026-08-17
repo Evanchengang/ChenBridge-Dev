@@ -2,7 +2,6 @@
    ChenBridge Home Page Styles
 ========================================== */
 
-
 /* ==========================================
    HERO SECTION
 ========================================== */
@@ -22,11 +21,12 @@
 
     display:flex;
 
-    align-items:center;
+    align-items:stretch;
 
     overflow:hidden;
 
 }
+
 
 
 
@@ -36,26 +36,47 @@
 
     inset:0;
 
-    background:rgba(0,0,0,0.45);
+    background:rgba(0,0,0,0.35);
 
 }
 
 
 
 
-.hero-content {
+
+.home-hero .container {
+
+    width:100%;
+
+    max-width:none;
+
+    padding:0;
+
+}
+
+
+
+
+
+.home-hero-content {
 
     position:relative;
 
+    width:60%;
+
     max-width:760px;
 
-    background:rgba(255,255,255,0.12);
+    min-height:650px;
 
-    backdrop-filter:blur(8px);
+    background:rgba(0,0,0,0.55);
 
-    padding:45px;
+    padding:80px 60px;
 
-    border-radius:10px;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
 
     color:white;
 
@@ -64,9 +85,11 @@
 
 
 
+
+
 .hero-label {
 
-  display:inline-block;
+    display:inline-block;
 
     font-size:14px;
 
@@ -83,6 +106,8 @@
 
 
 
+
+
 .home-hero-content h1 {
 
     font-size:48px;
@@ -94,6 +119,9 @@
     color:white;
 
 }
+
+
+
 
 
 

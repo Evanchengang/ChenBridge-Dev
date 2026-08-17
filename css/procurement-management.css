@@ -1,0 +1,518 @@
+/* ==========================================
+   ChenBridge
+   Procurement Management Page Styles
+========================================== */
+
+
+
+/* ==========================================
+   Hero
+========================================== */
+
+
+.service-hero {
+
+    position:relative;
+
+    min-height:650px;
+
+    background-image:url("../images/services/procurement-management-hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+.hero-overlay {
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        rgba(15,61,46,0.75),
+        rgba(15,61,46,0.55)
+    );
+
+}
+
+
+
+.service-hero .container {
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+
+.hero-content {
+
+    max-width:850px;
+
+    color:white;
+
+}
+
+
+
+.hero-label {
+
+    display:inline-block;
+
+    letter-spacing:2px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+    color:#F28C28;
+
+}
+
+
+
+.hero-content h1 {
+
+    color:white;
+
+    font-size:52px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.hero-content p {
+
+    color:white;
+
+    font-size:20px;
+
+    max-width:700px;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Intro
+========================================== */
+
+
+.intro-grid {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+
+
+.intro-grid h2 {
+
+    text-align:left;
+
+}
+
+
+
+.intro-grid p {
+
+    margin-bottom:20px;
+
+}
+
+
+
+.image-box img {
+
+    width:100%;
+
+    border-radius:14px;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Cards
+========================================== */
+
+
+.card-grid {
+
+    display:grid;
+
+    gap:25px;
+
+}
+
+
+
+.card-grid.three {
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+
+
+.card-grid.four {
+
+    grid-template-columns:repeat(4,1fr);
+
+}
+
+
+
+.service-card {
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    transition:.3s;
+
+}
+
+
+
+.service-card:hover {
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.12);
+
+}
+
+
+
+.service-card h3 {
+
+    margin-bottom:15px;
+
+}
+
+
+
+.service-card p {
+
+    color:#4b5563;
+
+}
+
+
+
+.number {
+
+    font-size:38px;
+
+    font-weight:700;
+
+    color:#F28C28;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Dark Process
+========================================== */
+
+
+.dark {
+
+    background:#0F3D2E;
+
+}
+
+
+
+.dark h2 {
+
+    color:white;
+
+}
+
+
+
+.process-flow {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.process-item {
+
+    text-align:center;
+
+    padding:35px 25px;
+
+    background:
+    rgba(255,255,255,.08);
+
+    border-radius:12px;
+
+}
+
+
+
+.process-item span {
+
+    display:block;
+
+    font-size:36px;
+
+    font-weight:bold;
+
+    color:#F28C28;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.process-item h3 {
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.process-item p {
+
+    color:#e5e7eb;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Light Section
+========================================== */
+
+
+.light-section {
+
+    background:#F8F6F1;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   CTA
+========================================== */
+
+
+.cta {
+
+    background:#0F3D2E;
+
+    text-align:center;
+
+}
+
+
+
+.cta h2 {
+
+    color:white;
+
+}
+
+
+
+.cta p {
+
+    color:white;
+
+    font-size:18px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.cta .btn {
+
+    background:#F28C28;
+
+}
+
+
+
+
+
+
+/* ==========================================
+   Responsive
+========================================== */
+
+
+@media(max-width:1100px){
+
+
+.hero-content h1 {
+
+    font-size:44px;
+
+}
+
+
+.intro-grid {
+
+    gap:40px;
+
+}
+
+
+
+.card-grid.four {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.process-flow {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+
+.service-hero {
+
+    min-height:520px;
+
+}
+
+
+
+.hero-content h1 {
+
+    font-size:36px;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:17px;
+
+}
+
+
+
+.intro-grid {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.intro-grid h2 {
+
+    text-align:center;
+
+}
+
+
+
+.card-grid.three,
+
+.card-grid.four,
+
+.process-flow {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.service-card {
+
+    padding:25px;
+
+}
+
+
+
+.process-item {
+
+    padding:30px 20px;
+
+}
+
+
+
+}

@@ -263,20 +263,22 @@ Contact
 
 <!-- ================= HERO ================= -->
 
+<!-- ================= HERO ================= -->
+
 
 <section class="home-hero">
 
 
-<div class="hero-overlay"></div>
-
+<div class="home-hero-overlay"></div>
 
 
 <div class="container">
 
 
+<div class="home-hero-content">
 
-<div class="hero-content">
 
+<div class="hero-slide active">
 
 
 <span class="hero-label">
@@ -286,17 +288,11 @@ CHINA OPERATIONS SUPPORT
 </span>
 
 
-
-
-
 <h1>
 
 Your China Operations Representative
 
 </h1>
-
-
-
 
 
 <p>
@@ -306,24 +302,74 @@ Helping global companies access China's manufacturing capabilities without estab
 </p>
 
 
+</div>
 
+
+
+
+
+<div class="hero-slide">
+
+
+<span class="hero-label">
+
+GLOBAL MANUFACTURING CONNECTION
+
+</span>
+
+
+<h1>
+
+Bridging Global Companies With China's Manufacturing Capabilities
+
+</h1>
 
 
 <p>
 
-ChenBridge provides supplier development, manufacturing coordination, procurement support, and local execution assistance to help international companies operate confidently in China.
+Connecting international companies with qualified suppliers, manufacturing partners, and local execution resources in China.
 
 </p>
 
 
+</div>
 
 
 
-<div class="hero-buttons">
 
 
 
-<a href="industries.html" class="btn secondary-btn">
+<div class="hero-slide">
+
+
+<span class="hero-label">
+
+LOCAL EXECUTION SUPPORT
+
+</span>
+
+
+<h1>
+
+Turning China Complexity Into Reliable Execution
+
+</h1>
+
+
+<p>
+
+Supporting supplier coordination, manufacturing communication, and project follow-up to help global companies operate confidently in China.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<a href="industries.html" class="btn">
 
 Explore Industries
 
@@ -334,14 +380,7 @@ Explore Industries
 </div>
 
 
-
-
 </div>
-
-
-
-</div>
-
 
 
 </section>
@@ -1142,9 +1181,6 @@ contact@chenbridge.com
 
 
 
-<
-
-
 
 </div>
 
@@ -1422,7 +1458,43 @@ bubbles:true
 </script>
 
 
+<script>
 
+
+let heroSlides=document.querySelectorAll(".hero-slide");
+
+let heroIndex=0;
+
+
+if(heroSlides.length>1){
+
+
+setInterval(()=>{
+
+
+heroSlides[heroIndex].classList.remove("active");
+
+
+heroIndex++;
+
+
+if(heroIndex>=heroSlides.length){
+
+heroIndex=0;
+
+}
+
+
+heroSlides[heroIndex].classList.add("active");
+
+
+},5000);
+
+
+}
+
+
+</script>
 
 
 </body>

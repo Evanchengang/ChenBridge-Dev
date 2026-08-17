@@ -40,7 +40,7 @@ supplier development China
 
 <link rel="stylesheet" href="css/footer.css">
 
-<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/industries.css">
 
 
 <link rel="icon" type="image/png" href="favicon.png">
@@ -49,10 +49,8 @@ supplier development China
 </head>
 
 
+
 <body>
-
-
-<!-- ================= HEADER ================= -->
 
 
 <header>
@@ -66,11 +64,9 @@ supplier development China
 
 <a href="index.html">
 
-
 <img src="logo.png"
 alt="ChenBridge Logo"
 class="logo-img">
-
 
 </a>
 
@@ -133,32 +129,32 @@ Contact
 <div class="language-menu">
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('en')">
 🇺🇸 English
 </a>
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('zh-CN')">
 🇨🇳 中文
 </a>
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('ja')">
 🇯🇵 日本語
 </a>
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('ko')">
 🇰🇷 한국어
 </a>
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('de')">
 🇩🇪 Deutsch
 </a>
 
 
-<a href="#">
+<a href="#" onclick="changeLanguage('fr')">
 🇫🇷 Français
 </a>
 
@@ -167,6 +163,7 @@ Contact
 
 
 </div>
+
 
 
 <div id="google_translate_element"></div>
@@ -183,7 +180,7 @@ Contact
 
 
 
-<!-- ================= HERO ================= -->
+<!-- HERO -->
 
 
 <section class="industry-hero">
@@ -225,7 +222,6 @@ From industrial equipment and technology infrastructure to specialized logistics
 </p>
 
 
-
 </div>
 
 
@@ -241,8 +237,7 @@ From industrial equipment and technology infrastructure to specialized logistics
 
 
 
-
-<!-- ================= INDUSTRY CARDS ================= -->
+<!-- INDUSTRY CARDS -->
 
 
 <section>
@@ -263,9 +258,12 @@ Industries We Support
 
 
 
-
-
 <div class="card">
+
+
+<img src="images/industries/industrial.jpg"
+alt="Industrial Manufacturing Support">
+
 
 
 <h3>
@@ -296,9 +294,12 @@ Explore Industrial Support →
 
 
 
-
-
 <div class="card">
+
+
+<img src="images/industries/technology.jpg"
+alt="Technology Infrastructure Support">
+
 
 
 <h3>
@@ -327,11 +328,11 @@ Explore Technology Support →
 
 
 
-
-
-
-
 <div class="card">
+
+
+<img src="images/industries/defense.jpg"
+alt="Defense & Specialized Logistics Support">
 
 
 <h3>
@@ -365,6 +366,10 @@ Explore Specialized Logistics →
 
 
 <div class="card">
+
+
+<img src="images/industries/consumer.jpg"
+alt="Consumer Product Support">
 
 
 <h3>
@@ -410,7 +415,7 @@ Explore Consumer Support →
 
 
 
-<!-- ================= WHY ================= -->
+<!-- WHY -->
 
 
 <section class="dark">
@@ -515,7 +520,7 @@ Providing professional China operations support without requiring companies to e
 
 
 
-<!-- ================= CONTACT ================= -->
+<!-- CONTACT -->
 
 
 <section class="contact">
@@ -559,16 +564,172 @@ contact@chenbridge.com
 
 
 
-<!-- ================= FOOTER ================= -->
+
+<!-- FOOTER -->
 
 
 <footer>
 
 
+<div class="footer-container">
+
+
+<div class="footer-grid">
+
+
+
+<div class="footer-left">
+
+
+<div class="footer-column">
+
+
+<h4>
+Industries
+</h4>
+
+
+<a href="industrial.html">
+Industrial Manufacturing
+</a>
+
+
+<a href="technology.html">
+Technology Infrastructure
+</a>
+
+
+<a href="defense.html">
+Defense & Specialized Logistics
+</a>
+
+
+<a href="consumer.html">
+Consumer Products
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="footer-column">
+
+
+<h4>
+Services
+</h4>
+
+
+<a href="supplier-development.html">
+Supplier Development
+</a>
+
+
+<a href="procurement-management.html">
+Procurement Management
+</a>
+
+
+<a href="manufacturing-coordination.html">
+Manufacturing Coordination
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="footer-brand">
+
+
+<h3>
+
+ChenBridge Global Advisory
+
+</h3>
+
+
+<p>
+
+China Operations & Supply Chain Support Partner helping global companies source, develop suppliers, and execute manufacturing projects in China.
+
+</p>
+
+
+
+
+<div class="social-links">
+
+
+<a href="#">
+
+<img src="linkedin.png" alt="LinkedIn">
+
+</a>
+
+
+
+<a href="#">
+
+<img src="whatsapp.png" alt="WhatsApp">
+
+</a>
+
+
+
+<a href="#">
+
+<img src="youtube.png" alt="YouTube">
+
+</a>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="footer-bottom">
+
+
+<p>
+
 © 2026 ChenBridge Global Advisory. All rights reserved.
+
+</p>
+
+
+</div>
+
+
+</div>
 
 
 </footer>
+
 
 
 
@@ -604,8 +765,36 @@ bubbles:true
 }
 
 
+
+function googleTranslateElementInit(){
+
+
+new google.translate.TranslateElement(
+
+{
+
+pageLanguage:'en',
+
+includedLanguages:'en,zh-CN,ja,ko,de,fr',
+
+autoDisplay:false
+
+},
+
+'google_translate_element'
+
+);
+
+
+}
+
+
 </script>
 
+
+
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 

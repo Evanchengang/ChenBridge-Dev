@@ -1,0 +1,219 @@
+/* ==========================================
+   ChenBridge Industrial Page Styles
+========================================== */
+
+
+/* ================= HERO ================= */
+
+
+.hero {
+
+    background:#F8F6F1;
+
+    padding:90px 0 70px;
+
+}
+
+
+
+.hero-grid {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+
+
+.hero-grid > div:first-child {
+
+    transform:translateY(-20px);
+
+}
+
+
+
+.hero h1 {
+
+    font-size:46px;
+
+    line-height:1.25;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.hero p {
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.hero-image {
+
+    width:100%;
+
+    max-width:520px;
+
+    border-radius:14px;
+
+    margin:auto;
+
+    object-fit:cover;
+
+}
+
+
+
+
+
+/* ================= BUTTON ================= */
+
+
+.hero .btn {
+
+    margin-top:25px;
+
+}
+
+
+
+
+
+/* ================= INDUSTRIAL CARDS ================= */
+
+
+.cards {
+
+    align-items:stretch;
+
+}
+
+
+
+.card {
+
+    height:100%;
+
+}
+
+
+
+
+
+/* ================= DARK SECTION ================= */
+
+
+.dark-card {
+
+    min-height:230px;
+
+}
+
+
+
+
+
+/* ================= CONTACT ================= */
+
+
+.contact {
+
+    text-align:center;
+
+}
+
+
+
+.contact a {
+
+    font-size:24px;
+
+    color:#F28C28;
+
+    font-weight:700;
+
+}
+
+
+
+
+
+/* ================= MOBILE ================= */
+
+
+@media(max-width:900px){
+
+
+
+.hero {
+
+    padding:60px 0;
+
+}
+
+
+
+.hero-grid {
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+
+
+.hero-grid > div:first-child {
+
+    transform:none;
+
+}
+
+
+
+.hero h1 {
+
+    font-size:36px;
+
+}
+
+
+
+.hero p {
+
+    font-size:16px;
+
+}
+
+
+
+.hero-image {
+
+    max-width:100%;
+
+}
+
+
+
+.dark-card {
+
+    min-height:auto;
+
+}
+
+
+}

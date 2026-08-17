@@ -1,0 +1,221 @@
+/* ==========================================
+   ChenBridge Industries Page
+========================================== */
+
+
+
+/* ================= HERO ================= */
+
+
+.industry-hero {
+
+    background:#F8F6F1;
+
+    padding:100px 0 80px;
+
+}
+
+
+
+.industry-hero-content {
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+
+
+.hero-label {
+
+    display:block;
+
+    font-size:15px;
+
+    letter-spacing:2px;
+
+    font-weight:600;
+
+    color:#F28C28;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.industry-hero h1 {
+
+    font-size:48px;
+
+    line-height:1.25;
+
+    color:#0F3D2E;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.industry-hero p {
+
+    max-width:800px;
+
+    margin:15px auto;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#4b5563;
+
+}
+
+
+
+
+
+/* ================= INDUSTRY GRID ================= */
+
+
+.industry-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.industry-grid .card {
+
+    min-height:280px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+.industry-grid h3 {
+
+    font-size:24px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.industry-grid p {
+
+    flex-grow:1;
+
+}
+
+
+
+.industry-grid a {
+
+    margin-top:25px;
+
+    color:#0F3D2E;
+
+    font-weight:600;
+
+}
+
+
+
+.industry-grid a:hover {
+
+    color:#F28C28;
+
+}
+
+
+
+
+
+/* ================= DARK SECTION ================= */
+
+
+.dark {
+
+    background:#0F3D2E;
+
+}
+
+
+
+.dark-card {
+
+    min-height:220px;
+
+}
+
+
+
+
+
+/* ================= CONTACT ================= */
+
+
+.contact {
+
+    text-align:center;
+
+}
+
+
+
+
+
+/* ================= MOBILE ================= */
+
+
+@media(max-width:900px){
+
+
+.industry-hero {
+
+    padding:70px 0 50px;
+
+}
+
+
+
+.industry-hero h1 {
+
+    font-size:36px;
+
+}
+
+
+
+.industry-hero p {
+
+    font-size:16px;
+
+}
+
+
+
+.industry-grid {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+}
